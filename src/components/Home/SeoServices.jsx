@@ -83,6 +83,7 @@ const SeoServices = () => {
     <div id="services" className=" py-20 text-white">
       <div className="w-[90%] mx-auto">
         <a
+          target="_blank"
           href={
             "https://www.sibinfotech.com/search-engine-optimization-seo-services"
           }
