@@ -43,7 +43,7 @@ function Layout({
         href={"https://api.whatsapp.com/send?phone=918850525860&text=Hi"}
         className="z-[2] max-lg:hidden fixed bottom-4 w-fit  right-2  text-white   "
       >
-        <Image width={50} height={50} src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/whatsapp.png"} alt="whatsapp" />
+        <Image width={50} height={50} src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/whatsapp.png"} alt="whatsapp" />
       </Link> */}
         <div className="z-[2] max-lg:hidden sticky bottom-0 ">
           <FooterBar />

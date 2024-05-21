@@ -41,7 +41,7 @@ const Reviews = () => {
                   <img
                     width={150}
                     height={100}
-                    src={"/rocket.png"}
+                    src={"https://www.sibinfotech.com/digital-marketing-services-in-india/rocket.png"}
                     alt="rocket"
                   />
                 </div>
@@ -102,7 +102,7 @@ const Reviews = () => {
                   <img
                     width={100}
                     height={100}
-                    src={"/left-quote.png"}
+                    src={"https://www.sibinfotech.com/digital-marketing-services-in-india/left-quote.png"}
                     alt=""
                   />
                 </div>

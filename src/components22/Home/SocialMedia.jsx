@@ -13,7 +13,7 @@ const SocialMedia = () => {
                 width={500}
                 height={600}
                 quality={100}
-                src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/social-media-marketing.jpg"}
+                src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/social-media-marketing.jpg"}
                 alt="social-media-marketing"
               />
             </div>

@@ -8,7 +8,7 @@ const Model = ({ isModalOpen, setIsModalOpen }) => {
     companyName: "",
     websiteUrl: "",
     email: "",
-    fromWhere: "Digital marketing services in mumbai",
+    fromWhere: "India",
   });
 
   const handleSubmit = async (e) => {

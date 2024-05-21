@@ -40,7 +40,7 @@ const Reviews = () => {
                   <img
                     width={150}
                     height={100}
-                    src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/rocket.png"}
+                    src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/rocket.png"}
                     alt="rocket"
                   />
                 </div>
@@ -101,7 +101,7 @@ const Reviews = () => {
                   <img
                     width={100}
                     height={100}
-                    src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/left-quote.png"}
+                    src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/left-quote.png"}
                     alt=""
                   />
                 </div>

@@ -11,7 +11,7 @@ const PpcMangement = () => {
                 className=""
                 width={500}
                 height={500}
-                src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/PremierBadge.svg"}
+                src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/PremierBadge.svg"}
                 alt="PremierBadge"
               />
             </div>
@@ -20,7 +20,7 @@ const PpcMangement = () => {
                 className=" "
                 width={500}
                 height={500}
-                src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/meta-partner.jpg"}
+                src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/meta-partner.jpg"}
                 alt="PremierBadge"
               />
             </div>
@@ -44,7 +44,7 @@ const PpcMangement = () => {
               className=""
               width={500}
               height={500}
-              src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/PremierBadge.svg"}
+              src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/PremierBadge.svg"}
               alt="PremierBadge"
             />
           </div>
@@ -65,7 +65,7 @@ const PpcMangement = () => {
               className=" "
               width={500}
               height={500}
-              src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/meta-partner.jpg"}
+              src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/meta-partner.jpg"}
               alt="PremierBadge"
             />
           </div>
@@ -95,7 +95,7 @@ const PpcMangement = () => {
               <img
                 width={100}
                 height={100}
-                src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/adwords.png"}
+                src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/adwords.png"}
                 alt="adwords"
               />
             </div>
@@ -123,7 +123,7 @@ const PpcMangement = () => {
               <img
                 width={100}
                 height={100}
-                src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/facebook.png"}
+                src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/facebook.png"}
                 alt="facebook"
               />
             </div>
@@ -136,7 +136,7 @@ const PpcMangement = () => {
                 className="absolute w-full object-cover h-full"
                 width={800}
                 height={800}
-                src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/ads-management.jpg"}
+                src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/ads-management.jpg"}
                 alt="ads-management"
               />
             </div>
@@ -164,7 +164,7 @@ const PpcMangement = () => {
               <img
                 width={100}
                 height={100}
-                src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/instagram.png"}
+                src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/instagram.png"}
                 alt="instagram"
               />
             </div>
@@ -191,7 +191,7 @@ const PpcMangement = () => {
               <img
                 width={100}
                 height={100}
-                src={"https://www.sibinfotech.com/digital-marketing-services-in-mumbai/linkedin.png"}
+                src={"https://www.sibinfotech.com/digital-marketing-services-in-indiahttps://www.sibinfotech.com/digital-marketing-services-in-mumbai/linkedin.png"}
                 alt="linkedin"
               />
             </div>

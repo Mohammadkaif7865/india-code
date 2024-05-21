@@ -1,8 +1,8 @@
-
 import React, { useState } from "react";
 import Services from "./Services";
 import axios from "axios";
 import "./heroform.css";
+import { toast } from "react-toastify";
 
 const HeroForm = ({ oneline }) => {
   const [formData, setFormData] = useState({
@@ -11,7 +11,7 @@ const HeroForm = ({ oneline }) => {
     companyName: "",
     websiteUrl: "",
     email: "",
-    fromWhere: "Digital marketing services in Mumbai",
+    fromWhere: "India",
   });
 
   const handleChange = (e) => {
@@ -24,27 +24,48 @@ const HeroForm = ({ oneline }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form Data:", formData);
+    // console.log("Form Data:", formData);
+    const data = {
+      name: formData.name,
+      company: formData.companyName,
+      website: formData.websiteUrl,
+      email: formData.email,
+      phone: formData.phoneNo,
+      fromWhere: formData.fromWhere,
+    };
+
+    // console.log(data);
 
     try {
-      const response = await fetch("/api/mailer", {
+      const API_TOKEN = "FgRCHG4OVv8Z1BcrjExKJcqspvTsUTCe";
+      const url = "https://www.sibinfotech.com/api/send-email";
+      const response = await fetch(url, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          Authorization: API_TOKEN,
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(data),
       });
 
-      const responseData = await response.json();
-      console.log("Response:", responseData);
+      console.log(response.data);
+      if (response.status == 200) {
+        toast.success("Email Send Successfully!");
+        setFormData({
+          name: "",
+          companyName: "",
+          websiteUrl: "",
+          email: "",
+          phoneNo: "",
+        });
 
-      setFormData({
-        name: "",
-        companyName: "",
-        websiteUrl: "",
-        email: "",
-        phoneNo: "",
-      });
+        setTimeout(() => {
+          window.location.href = "https://sibinfotech.com/thanks";
+        }, 2000);
+      }
+      if (!response.status == 200) {
+        return toast.error("Somthing went wrong!");
+      }
     } catch (error) {
       console.error("Error:", error);
     }
@@ -52,6 +73,7 @@ const HeroForm = ({ oneline }) => {
 
   return (
     <>
+   
       <div
         className={`w-[100%] bg-white rounded-2xl   ${
           oneline ? "py-12 " : "p-5"

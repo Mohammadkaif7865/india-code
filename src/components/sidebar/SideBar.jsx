@@ -156,7 +156,7 @@ const SideBar = () => {
               className="m-auto pt-1"
               width={80}
               height={100}
-              src={"/header/google-logo-new.webp"}
+              src={"https://www.sibinfotech.com/digital-marketing-services-in-india/header/google-logo-new.webp"}
               alt="google-logo"
             />
           </div>

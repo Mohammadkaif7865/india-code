@@ -5,23 +5,23 @@ import HeroForm from "./HeroForm";
 const Hero = () => {
   const images = [
     {
-      img: "/banner/logo/best-website-deigning-ana-development-company-in-india.svg",
+      img: "https://www.sibinfotech.com/digital-marketing-services-in-india/banner/logo/best-website-deigning-ana-development-company-in-india.svg",
       alt: "best-website-deigning-ana-development-company-in-india.svg",
     },
     {
-      img: "/banner/logo/best-design-comapnies-in-india.svg",
+      img: "https://www.sibinfotech.com/digital-marketing-services-in-india/banner/logo/best-design-comapnies-in-india.svg",
       alt: "best-design-comapnies-in-india.svg",
     },
     {
-      img: "/banner/logo/facebook-reviews.svg",
+      img: "https://www.sibinfotech.com/digital-marketing-services-in-india/banner/logo/facebook-reviews.svg",
       alt: "facebook-reviews.svg",
     },
     {
-      img: "/banner/logo/search-engine-optimization-firm-in-delhi.svg",
+      img: "https://www.sibinfotech.com/digital-marketing-services-in-india/banner/logo/search-engine-optimization-firm-in-delhi.svg",
       alt: "search-engine-optimization-firm-in-delhi.svg",
     },
     {
-      img: "/banner/logo/top-advertising-and-marketing-company (1).png",
+      img: "https://www.sibinfotech.com/digital-marketing-services-in-india/banner/logo/top-advertising-and-marketing-company (1).png",
       alt: "/top-advertising-and-marketing-company ",
     },
   ];
@@ -29,7 +29,7 @@ const Hero = () => {
   return (
     <div className="relative overflow-hidden bg-black/30 md:pb-10 pt-[50px] ">
       <video
-        src={"/banner/banner-video.mp4"}
+        src={"https://www.sibinfotech.com/digital-marketing-services-in-india/banner/banner-video.mp4"}
         height={"400px"}
         autoPlay
         loop
@@ -106,7 +106,7 @@ const Hero = () => {
           width={1000}
           height={200}
           className=" absolute w-full  object-cover z-[2] bottom-0 h-[30px]  md:h-[95px]"
-          src={"/banner/bg-wave.svg"}
+          src={"https://www.sibinfotech.com/digital-marketing-services-in-india/banner/bg-wave.svg"}
           alt="bg-wave"
         />
       </div>

@@ -96,11 +96,14 @@ const SeoServices = () => {
             <br className="max-lg:hidden" />
             India, to Grow Your Business Online
           </h2>
-          <button className=" font-redhat bg-[#E31A20] max-lg:w-fit max-lg:mt-8 group flex justify-center border border-black text-white  hover:bg-opacity-0  hover:text-[#E31A20] hover:border-[#E31A20]    transition-all duration-300  group   rounded-[10px] text-[14px]  font-medium   items-center gap-1 p-[10px_15px] lg:p-[12px_25px]">
+          <a
+            href="#contact"
+            className=" font-redhat bg-[#E31A20] max-lg:w-fit max-lg:mt-8 group flex justify-center border border-black text-white  hover:bg-opacity-0  hover:text-[#E31A20] hover:border-[#E31A20]    transition-all duration-300  group   rounded-[10px] text-[14px]  font-medium   items-center gap-1 p-[10px_15px] lg:p-[12px_25px]"
+          >
             {" "}
             <span>LET'S DISCUSS</span>
             <FaSquareArrowUpRight className="text-2xl group-hover:text-[#E31A20] text-white   " />
-          </button>
+          </a>
         </div>
         <hr className="text-gray-200 mb-4 mt-8 md:my-16" />
 
