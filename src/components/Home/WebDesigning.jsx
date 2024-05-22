@@ -4,9 +4,9 @@ const WebDesigning = () => {
   return (
     <div className="max-lg:bg-[#f1f1f1]">
       <div className="w-[90%] mx-auto py-12 md:py-20 ">
-        <h1 className="font-poppins text-[27px] md:text-[36px] text-[#212529] font-bold">
+        <h3 className="font-poppins text-[27px] md:text-[36px] text-[#212529] font-bold">
           Web Designing Services
-        </h1>
+        </h3>
         <p className="lg:w-[75%] font-poppins text-base text-[#222] text-justify my-4">
           We are a team of creative and experienced professionals dedicated to
           providing top-notch website design solutions to businesses of all

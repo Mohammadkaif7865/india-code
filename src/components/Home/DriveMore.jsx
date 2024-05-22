@@ -8,9 +8,9 @@ const DriveMore = () => {
   return (
     <div className="bg-[#3979f8c7] py-20   ">
       <div className="flex flex-col  items-center justify-center max-lg:w-[90%] mx-auto">
-        <h1 className="font-redhat text-[27px] max-lg:leading-tight md:text-[36px] text-center font-bold text-white">
+        <h3 className="font-redhat text-[27px] max-lg:leading-tight md:text-[36px] text-center font-bold text-white">
           Want To Drive More Traffic To Your Business Website?
-        </h1>
+        </h3>
         <p className="font-poppins text-white text-[17px] md:text-[20px]  lg:w-[70%] mx-auto text-center font-  my-4">
           Contact us today to learn more about how we can help drive more
           traffic to your business website and take your online presence to the

@@ -70,9 +70,9 @@ const ContactForm = () => {
   return (
     <div className="">
       <div className="w-[100%] md:bg-white rounded-2xl md:p-6">
-        <h1 className="font-bold text-[24px] md:text-[32px] leading-tight text-center font-redhat">
+        <h3 className="font-bold text-[24px] md:text-[32px] leading-tight text-center font-redhat">
           Ready to boost your leads?
-        </h1>
+        </h3>
 
         <form
           className="Hero_form text-[#999] font-poppins"

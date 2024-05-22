@@ -73,15 +73,14 @@ const HeroForm = ({ oneline }) => {
 
   return (
     <>
-   
       <div
         className={`w-[100%] bg-white rounded-2xl   ${
           oneline ? "py-12 " : "p-5"
         }`}
       >
-        <h1 className="font-bold font-redhat text-[24px] md:text-[29px] text-center">
+        <h3 className="font-bold font-redhat text-[24px] md:text-[29px] text-center">
           Ready to get more leads
-        </h1>
+        </h3>
         <form
           className="Hero_form text-[#999] font-poppins"
           onSubmit={handleSubmit}
@@ -92,6 +91,7 @@ const HeroForm = ({ oneline }) => {
                 className=""
                 type="text"
                 name="name"
+                inputMode="text"
                 value={formData.name}
                 onChange={handleChange}
                 required
@@ -105,6 +105,7 @@ const HeroForm = ({ oneline }) => {
                 className=""
                 type="text"
                 name="phoneNo"
+                inputMode="tel"
                 value={formData.phoneNo}
                 onChange={handleChange}
                 required
@@ -119,6 +120,7 @@ const HeroForm = ({ oneline }) => {
               className=""
               type="text"
               name="companyName"
+              inputMode="text"
               value={formData.companyName}
               onChange={handleChange}
               required
@@ -133,6 +135,7 @@ const HeroForm = ({ oneline }) => {
               className=""
               type="text"
               name="websiteUrl"
+              inputMode="url"
               value={formData.websiteUrl}
               onChange={handleChange}
               required
@@ -147,6 +150,7 @@ const HeroForm = ({ oneline }) => {
               className=""
               type="text"
               name="email"
+              inputMode="email"
               value={formData.email}
               onChange={handleChange}
               required

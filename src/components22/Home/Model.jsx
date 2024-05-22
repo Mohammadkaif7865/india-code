@@ -100,9 +100,9 @@ const Model = ({ isModalOpen, setIsModalOpen }) => {
         centered={true}
       >
         <div className="w-[100%] md:bg-white rounded-2xl md:p-6">
-          <h1 className="font-bold text-[24px] md:text-[32px] leading-tight text-center font-redhat">
+          <h3 className="font-bold text-[24px] md:text-[32px] leading-tight text-center font-redhat">
             Ready to boost your leads?
-          </h1>
+          </h3>
           <form onSubmit={handleSubmit} className="font-poppins">
             <div className="w-full relative group mt-[25px]">
               <input

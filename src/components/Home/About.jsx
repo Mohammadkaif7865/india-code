@@ -20,7 +20,7 @@ const About = () => {
               />
             </div>
             <div>
-              <h1 className="font-bold text-3xl font-redhat">18+</h1>
+              <h3 className="font-bold text-3xl font-redhat">18+</h3>
               <p className="font-bold text-[17px] font-poppins">
                 Years in Business
               </p>
@@ -38,7 +38,7 @@ const About = () => {
               />
             </div>
             <div>
-              <h1 className="font-bold text-3xl font-redhat"> 1350+</h1>
+              <h3 className="font-bold text-3xl font-redhat"> 1350+</h3>
               <p className="font-bold text-[17px] font-poppins">
                 Projects Delivers
               </p>
@@ -56,7 +56,7 @@ const About = () => {
               />
             </div>
             <div>
-              <h1 className="font-bold text-3xl font-redhat">750+</h1>
+              <h3 className="font-bold text-3xl font-redhat">750+</h3>
               <p className="font-bold text-[17px] font-poppins">
                 Active Clients/Users
               </p>
@@ -71,16 +71,16 @@ const About = () => {
             >
               About SIB Infotech
             </a>
-            <h1 className="text-[27px] md:text-[36px] leading-tight md:leading-[50px] mt-8 font-redhat font-bold">
+            <h3 className="text-[27px] md:text-[36px] leading-tight md:leading-[50px] mt-8 font-redhat font-bold">
               Revamp Your Online Presence with the{" "}
               <span className="text-blue-500">
                 Best Digital Marketing Agency
               </span>
-            </h1>
-            <p className="font-bold text-[18px] md:text-[22px] font-redhat text-[#222] mt-2">
+            </h3>
+            <h4 className="font-bold text-[18px] md:text-[22px] font-redhat text-[#222] mt-2">
               Drive More Sales with Effective SEO, PPC & Email Marketing
               Strategies!
-            </p>
+            </h4>
             <div className="flex max-md:flex-col gap-2 lg:gap-6  mt-8">
               <div className="md:w-[35%] h-fit p-2 bg-white lg:drop-shadow-2xl lg:shadow-2xl">
                 <img

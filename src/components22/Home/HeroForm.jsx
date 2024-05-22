@@ -79,9 +79,9 @@ const HeroForm = ({ oneline }) => {
           oneline ? "py-12 " : "p-5"
         }`}
       >
-        <h1 className="font-bold font-redhat text-[24px] md:text-[29px] text-center">
+        <h3 className="font-bold font-redhat text-[24px] md:text-[29px] text-center">
           Ready to get more leads
-        </h1>
+        </h3>
         <form
           className="Hero_form text-[#999] font-poppins"
           onSubmit={handleSubmit}

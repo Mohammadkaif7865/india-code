@@ -27,10 +27,10 @@ const Reviews = () => {
   return (
     <div id="reviews" className="bg-white">
       <div className="w-[90%] mx-auto py-12 lg:py-20 ">
-        <h1 className="text-[#212529] lg:w-[80%] mx-auto text-center font-redhat text-[27px] max-lg:leading-tight  lg:text-[36px] font-bold leading-[45px]  ">
+        <h3 className="text-[#212529] lg:w-[80%] mx-auto text-center font-redhat text-[27px] max-lg:leading-tight  lg:text-[36px] font-bold leading-[45px]  ">
           What Our Clients Have to Say About Our Top-Notch Digital Marketing
           Services
-        </h1>
+        </h3>
 
         <div className="md:p-[30px] flex max-lg:flex-col bg-white md:drop-shadow-2xl md:border rounded-2xl mt-8">
           <div className="lg:w-[50%] ">
@@ -77,17 +77,17 @@ const Reviews = () => {
             </div>
             <div className="lg:w-[70%] grid grid-cols-2  gap-6 mt-8">
               <div className="text-center p-[20px_10px] text-white bg-[#4582FF]   rounded-2xl">
-                <h1 className="text-[27px] md:text-[36px] font-redhat font-bold ">
+                <h3 className="text-[27px] md:text-[36px] font-redhat font-bold ">
                   3x
-                </h1>
+                </h3>
                 <p className="mt-[2px] max-md:text-[14px] leading-tight  ">
                   Growth in Revenue Generated
                 </p>
               </div>
               <div className="text-center p-[20px_10px] text-white  bg-[#f49200] rounded-2xl ">
-                <h1 className="text-[27px] md:text-[36px] font-redhat font-bold rounded-2xl ">
+                <h3 className="text-[27px] md:text-[36px] font-redhat font-bold rounded-2xl ">
                   4x
-                </h1>
+                </h3>
                 <p className="mt-[2px] max-md:text-[14px] leading-tight  ">
                   Increase in Organic Leads
                 </p>

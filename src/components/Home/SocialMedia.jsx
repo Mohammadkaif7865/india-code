@@ -20,9 +20,9 @@ const SocialMedia = () => {
           </div>
         </div>
         <div className="lg:w-[50%]">
-          <h1 className="font-poppins leading-tight text-[27px] md:text-[34px]  font-bold text-[#212529]">
+          <h3 className="font-poppins leading-tight text-[27px] md:text-[34px]  font-bold text-[#212529]">
             Social Media Marketing Services
-          </h1>
+          </h3>
           <p className="font-poppins text-base text-[#222] text-justify my-4">
             At SIB Infotech, we offer top-notch social media marketing services
             to help your business grow and reach new heights. Our team of

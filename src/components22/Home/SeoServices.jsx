@@ -168,9 +168,9 @@ const SeoServices = () => {
 
                             <div className="lg:hidden mt-8 rounded-2xl overflow-hidden  shadow">
                               <div className="p-[20px]  bg-white text-[#222] ">
-                                <h1 className="text-[#212529] font-redhat text-[24px] font-bold">
+                                <h3 className="text-[#212529] font-redhat text-[24px] font-bold">
                                   {items.heading}
-                                </h1>
+                                </h3>
 
                                 <p className=" my-[16px] font-poppins text-justify text-base ">
                                   {items.discription}
@@ -198,9 +198,9 @@ const SeoServices = () => {
                     className="seoServices sticky top-0  rounded-2xl overflow-hidden  shadow"
                   >
                     <div className="p-[40px]  bg-white text-[#222] ">
-                      <h1 className="text-[#212529] font-redhat text-[30px] font-bold">
+                      <h3 className="text-[#212529] font-redhat text-[30px] font-bold">
                         {items.heading}
-                      </h1>
+                      </h3>
 
                       <p className=" my-[16px] font-poppins text-base ">
                         {items.discription}

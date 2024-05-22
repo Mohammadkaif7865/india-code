@@ -80,9 +80,9 @@ const Hero = () => {
         <hr className=" max-md:hidden text-gray-300 my-5" />
         <div className="grid gap-8 max-md:hidden  md:grid-cols-2 lg:grid-cols-4 ">
           <div>
-            <h4 className="font-poppins text-[22px] text-white font-semibold">
+            <h2 className="font-poppins text-[22px] text-white font-semibold">
               Digital Marketing <br className="max-lg:hidden" /> Services
-            </h4>
+            </h2>
           </div>
           <div>
             <h4 className="font-poppins text-[22px] text-white font-semibold">

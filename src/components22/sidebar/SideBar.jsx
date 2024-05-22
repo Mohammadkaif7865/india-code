@@ -122,7 +122,7 @@ const SideBar = () => {
           </button>
         </div>
         <div className="my-8">
-          <h1 className=" text-[20px] font-medium font-redhat">Follow Us</h1>
+          <h3 className=" text-[20px] font-medium font-redhat">Follow Us</h3>
           <div className="flex items-center gap-6 text-xl mt-6 font-poppins">
             {socialLinks.map((values, i) => {
               return (
