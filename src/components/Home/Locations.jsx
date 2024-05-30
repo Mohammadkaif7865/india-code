@@ -17,7 +17,7 @@ const Locations = () => {
               className="flex items-center gap-2 font-poppins text-base mt-4"
             >
               <FaPhoneAlt className={"text-xl "} />
-              <span className="font-bold"> +91 92222 60000</span>
+              <span className="font-bold"> +91-9222260000</span>
             </a>
           </div>
           <div className="lg:w-[60%] relative w-full  max-lg:min-h-[300px]">
