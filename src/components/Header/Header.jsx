@@ -95,13 +95,13 @@ const Header = () => {
           </div>
           <div className=" max-lg:hidden font-redhat flex items-center gap-4 text-white ">
             <a
-              href="tel:+91 9222 260000"
+              href="tel:+91-9222260000"
               className={`flex  text-[20px] items-center gap-2 font-bold hover:text-blue-500  ${
                 isSticky ? "text- z-[20] text-[#E31A20]" : "text-white"
               }`}
             >
               <FaPhoneAlt className="text-2xl" />
-              <span>+91 9222 260000</span>
+              <span>+91-9222260000</span>
             </a>
             <button
               className={`uppercase  bg-opacity-0  font-redhat transition-all duration-300  group  border rounded-[10px] text-[16px] font-bold flex  items-center gap-1 p-[10px_15px] ${

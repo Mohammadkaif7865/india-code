@@ -12,10 +12,13 @@ const Locations = () => {
               107, Orbit Premises, Mindspace Near Inorbit Mall, Malad West,
               Mumbai, Maharashtra 400064
             </p>
-            <div className="flex items-center gap-2 font-poppins text-base mt-4">
+            <a
+              href="tel:+91-9222260000"
+              className="flex items-center gap-2 font-poppins text-base mt-4"
+            >
               <FaPhoneAlt className={"text-xl "} />
               <span className="font-bold"> +91 92222 60000</span>
-            </div>
+            </a>
           </div>
           <div className="lg:w-[60%] relative w-full  max-lg:min-h-[300px]">
             <iframe
@@ -36,10 +39,14 @@ const Locations = () => {
               2nd Floor, Office No 205, DDA-2 Building, Janakpuri District
               Center, Janakpuri, New Delhi, Delhi 110058
             </p>
-            <div className="flex  items-center gap-2 font-poppins text-base mt-4">
+            <a
+              href="tel:+91-9311655555"
+              target="_blank"
+              className="flex  items-center gap-2 font-poppins text-base mt-4"
+            >
               <FaPhoneAlt className={"text-xl "} />
-              <span className="font-bold"> +91 93116 55555</span>
-            </div>
+              <span className="font-bold"> +91-9311655555</span>
+            </a>
           </div>
           <div className="lg:w-[60%] relative w-full  max-lg:min-h-[300px]">
             <iframe

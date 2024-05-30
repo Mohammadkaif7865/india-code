@@ -10,7 +10,7 @@ const FooterBar = () => {
         <div>
           <a
              target="_blank"
-            href={"tel:+91 9222 260000"}
+            href={"tel:+91-9222260000"}
             className=" flex group justify-center items-center border hover:border-white hover:bg-white text-white font-redhat hover:bg-opacity-0  transition-all duration-300  group   rounded-[10px] text-[14px] md:text-[16px] font-bold    gap-1 p-[10px_15px] lg:p-[10px_20px] uppercase"
           >
             <span className="p-2 peer  rounded-md">

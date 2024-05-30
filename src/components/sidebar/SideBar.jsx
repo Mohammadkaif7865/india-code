@@ -104,11 +104,11 @@ const SideBar = () => {
         </div>
         <div className="font-redhat flex flex-col  gap-4 mt-8">
           <a
-            href="tel:+91 9222 260000"
+            href="tel:+91-9222260000"
             className="flex  text-[20px] items-center gap-2 font-bold text-blue-500 "
           >
             <FaPhoneAlt className="text-2xl" />
-            <span>tel:+91 9222 260000</span>
+            <span>tel:+91-9222260000</span>
           </a>
           <button
             className=" flex justify-center border border-black  hover:border-[#E31A20] hover:text-[#E31A20]  bg-opacity-0  transition-all duration-300  group   rounded text-[18px] font-bold   items-center gap-1 p-[10px_15px]"
