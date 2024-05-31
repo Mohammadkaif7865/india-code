@@ -95,6 +95,7 @@ const Header = () => {
           </div>
           <div className=" max-lg:hidden font-redhat flex items-center gap-4 text-white ">
             <a
+            target="_blank"
               href="tel:+91-9222260000"
               className={`flex  text-[20px] items-center gap-2 font-bold hover:text-blue-500  ${
                 isSticky ? "text- z-[20] text-[#E31A20]" : "text-white"

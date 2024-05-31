@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { TiSocialFacebook } from "react-icons/ti";
 import { FaPhoneAlt, FaTwitter } from "react-icons/fa";
@@ -112,6 +111,7 @@ const SideBar = () => {
         </div>
         <div className="font-redhat flex flex-col  gap-4 mt-8">
           <a
+            target="_blank"
             href="tel:+91-9222260000"
             className="flex  text-[20px] items-center gap-2 font-bold text-blue-500 "
           >
@@ -135,6 +135,7 @@ const SideBar = () => {
               return (
                 <a
                   key={i}
+                  target="_blank"
                   className="hover:text-[#e31a20]"
                   href={values.href}
                   onMouseEnter={() => {

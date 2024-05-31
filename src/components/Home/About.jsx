@@ -66,6 +66,7 @@ const About = () => {
         <div className="lg:w-[70%]">
           <div className="">
             <a
+              target="_blank"
               href={"https://www.sibinfotech.com/about-us"}
               className="font-medium bg-[#d7e4fd] p-[5px_10px] rounded text-[14px] font-poppins"
             >
