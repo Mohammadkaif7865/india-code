@@ -10,6 +10,7 @@ import { FaSquareArrowUpRight } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
 import { Tooltip } from "antd";
 import Model from "../Home/Model";
+import { useLocation } from "react-router-dom";
 
 export const openSideBar = () => {
   document.querySelector("#sidebar").classList.remove("left-[-100%]");
@@ -77,10 +78,15 @@ const SideBar = () => {
     },
   ];
 
+  const location = useLocation();
+  useEffect(() => {
+    closeSideBar();
+  }, [location]);
+
   return (
     <div
       id="sidebar"
-      className={` transition-all duration-300 fixed top-0 left-[-100%] bg-white  p-8 min-h-screen max-md:w-full w-[355px] z-[99]`}
+      className={` transition-all duration-300 fixed top-0 left-[-100%] bg-white  p-8 min-h-screen max-md:w-full w-[355px] z-[100]`}
     >
       <div>
         <IoCloseSharp

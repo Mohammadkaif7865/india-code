@@ -3,7 +3,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import SideBar from "../sidebar/SideBar";
+import SideBar, { closeSideBar } from "../sidebar/SideBar";
 import FooterBar from "../Footer/FooterBar";
 import { IoIosPaperPlane } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -38,8 +38,15 @@ function Layout({
           {children}
           <SideBar />
         </main>
+        <div
+          id="laypuotoverlay"
+          className="overlay hidden  fixed top-0 left-0 bottom-0 right-0  bg-black/60  z-[99]"
+          onClick={() => {
+            closeSideBar();
+          }}
+        ></div>
         <Model isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
-              <div className="z-[2] max-lg:hidden sticky bottom-0 ">
+        <div className="z-[2] max-lg:hidden sticky bottom-0 ">
           <FooterBar />
         </div>
         <div className="z-[2] sticky bottom-0 lg:hidden grid grid-cols-3  text-white   ">
